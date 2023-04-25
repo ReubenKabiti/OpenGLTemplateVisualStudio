@@ -2,7 +2,7 @@
 #include <iostream>
 #include <cstdlib>
 
-bool Shader::loadFromFile(const char * filename, GLint type)
+bool Shader::loadFromFile(const char * filename)
 {
 
 	FILE* fp = nullptr;

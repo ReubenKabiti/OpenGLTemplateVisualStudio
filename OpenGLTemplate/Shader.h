@@ -14,7 +14,7 @@ public:
 	Shader(GLenum type);
 	~Shader();
 
-	bool loadFromFile(const char* filename, GLint type);
+	bool loadFromFile(const char* filename);
 	bool create(const char* src);
 };
 
